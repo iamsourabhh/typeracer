@@ -1,0 +1,9 @@
+{
+  "extends": ["react-app", "prettier"],
+  "rules": {
+    "no-console": "warn",
+    "no-alert": "error",
+    "prettier/prettier": "error"
+  },
+  "plugins": ["prettier"]
+}
