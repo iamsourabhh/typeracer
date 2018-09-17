@@ -27,7 +27,7 @@ class TypeRacer extends Component {
     } = this.props;
     return (
       <React.Fragment>
-        {isLoading && <h1>Loading</h1>}
+        {isLoading && <h1 style={{ margin: "auto" }}>Loading</h1>}
         {!isLoading && (
           <div style={{ padding: "10%" }}>
             <div style={{ padding: "20px" }}>
